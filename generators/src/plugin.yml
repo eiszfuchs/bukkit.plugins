@@ -1,0 +1,15 @@
+name: generators
+version: 0.0.1
+description: Generate some freaky chunks!
+
+author: eiszfuchs
+website: http://ardistia-world.de/
+
+main: de.eiszfuchs.bukkit.GeneratorPlugin
+load: startup
+
+# worlds:
+#   world:
+#     generator: generators:void
+#     generator: generators:skygrid
+#     ...
