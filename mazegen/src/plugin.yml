@@ -1,0 +1,28 @@
+name: mazegen
+version: 0.0.2
+description: Trigger random mazes. Watch your step!
+
+author: eiszfuchs
+website: http://ardistia-world.de/
+
+main: de.eiszfuchs.bukkit.MazeGenerator
+
+commands:
+  mazegen:
+    description: Does all the jobs.
+    usage: |
+           /mazegen add - Start to create a new maze.
+
+permissions:
+  mazegen.add:
+    description: May a user create a new random maze?
+    default: op
+  mazegen.remove:
+    description: May a user delete a new random maze?
+    default: op
+  mazegen.toggle:
+    description: May a user (de)activate a maze?
+    default: op
+  mazegen.mode:
+    description: May a user change the maze's game mode?
+    default: op
