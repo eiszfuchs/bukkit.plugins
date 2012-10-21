@@ -1,0 +1,25 @@
+name: bookpublish
+version: 0.0.1
+description: Publish books into markdown files! Run your own newspaper from the game within!
+
+author: eiszfuchs
+website: http://ardistia-world.de/
+
+main: de.eiszfuchs.bukkit.BookPublisher
+load: startup
+
+commands:
+  publish:
+    description: Publish books into markdown files!
+    usage: /publish
+    permission: bookpublish.publish
+    permission-message: You don't have permission to publish books.
+    
+permissions:
+  bookpublish.*:
+    description: Allows everything
+    children:
+      bookpublish.publish: true
+  bookpublish.publish:
+      description: Allows to publish
+      default: op

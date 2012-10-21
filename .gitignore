@@ -1,3 +1,5 @@
+lib/
+
 # Windows
 ################
 
@@ -21,3 +23,5 @@ Desktop.ini
 build.xml
 nbproject/
 nblibraries.properties
+/bookpublish/dist/
+/bookpublish/build/

@@ -3,8 +3,13 @@ bukkit Plugins
 
 This set contains some *(useful?)* single-purpose bukkit plugins.
 
+Book Publisher (`bookpublish`)
+--------------
+
+Writes `Material.WRITTEN_BOOK` to Markdown-formatted files.
+
 Chunk Generators (`generators`)
-----------
+----------------
 
 This generator plugin will add the following chunk generators to your bukkit server, each with different purposes.
 
